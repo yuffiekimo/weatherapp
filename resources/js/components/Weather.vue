@@ -24,7 +24,7 @@ getWeather()
     <div v-if="displayWeather">
         <h4>Weather</h4>
 
-        <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+        <div class="h-100 p-5 border rounded-3">
 
             <div class="d-flex">
                 <h6 class="flex-grow-1">{{ displayWeather.name }}</h6>
