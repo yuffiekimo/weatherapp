@@ -30,6 +30,9 @@ The app uses a responsive design to cater to mobile and desktop devices. Weather
 git clone https://github.com/yuffiekimo/weatherapp.git
 ```
 ```
+cd ./weatherapp
+```
+```
 composer install
 ```
 ```
