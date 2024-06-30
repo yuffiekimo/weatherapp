@@ -51,14 +51,6 @@ npm run dev
 php artisan serve
 ```
 
-#### .env API Keys
-```
-OPENWEATHERMAP_API_KEY=179d0136abce9e6da567ac74b5ddfa48
-OPENWEATHERMAP_BASEURL=http://api.openweathermap.org/data/2.5/weather
-
-FOURSQUARE_API_KEY=fsq3jzbdYHL8K6TEuQMbpFQ5NCg/WAPU6CvM7m+SLP4arfI=
-FOURSQUARE_BASEURL=https://api.foursquare.com/v3/places
-```
 
 
 
