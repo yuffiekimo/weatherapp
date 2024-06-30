@@ -1,3 +1,64 @@
+# City Traveler
+
+The City Traveler web app is designed for first-time travelers in the cities of Japan. Given that they are first-timers, the app provides the 6 cities mostly visited. For every city selected, the app displays the current weather conditions and nearby places they can visit.
+
+The app uses a responsive design to cater to mobile and desktop devices. Weather is displayed in a widget format and the nearby places in accordion form. It also utilized Google map to give users better visibility
+
+### Desktop View
+![image](https://github.com/yuffiekimo/weatherapp/assets/174209152/51303c8c-acfb-426f-9b84-7e1a4b3e2074)
+
+### Mobile View
+![image](https://github.com/yuffiekimo/weatherapp/assets/174209152/90f32801-0062-42e9-979f-9c2d4bdc5220)
+
+
+## Development Requirements
+- [x] Use OpenWeatherMap'sDaily API to get weather forecasts.
+- [x] Use foursquare Search Venue API to get Place information.
+- [x] Responsive Design via Bootstrap5
+- [x] Laravel 11
+- [x] VueJS 3
+- [x] npm v8.19.2
+- [x] php v8.3.8
+- [x] composer 2.4.1
+- [x] Apache 2.4.59
+
+
+## Installation
+
+#### Server Setup
+```
+git clone https://github.com/yuffiekimo/weatherapp.git
+```
+```
+composer install
+```
+```
+npm install
+```
+```
+cp .env.demo .env
+```
+```
+php artisan optimize:clear
+```
+```
+npm run dev
+```
+```
+php artisan serve
+```
+
+#### .env API Keys
+```
+OPENWEATHERMAP_API_KEY=179d0136abce9e6da567ac74b5ddfa48
+OPENWEATHERMAP_BASEURL=http://api.openweathermap.org/data/2.5/weather
+
+FOURSQUARE_API_KEY=fsq3jzbdYHL8K6TEuQMbpFQ5NCg/WAPU6CvM7m+SLP4arfI=
+FOURSQUARE_BASEURL=https://api.foursquare.com/v3/places
+```
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
